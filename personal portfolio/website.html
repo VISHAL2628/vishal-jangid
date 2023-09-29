@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(3, 42, 42);
+            font-family: 'Poppins', sans-serif;
+            color: wheat;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(68, 136, 136);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: wheat;
+        }
+
+        nav ul li a:hover {
+            color: white;
+            font-size: 1.06rem;
+        }
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 70px 0;
+            color: wheat;
+            align-items: center;
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+
+            font-size: 2.5rem;
+
+        }
+
+        .rightsection img {
+            width: 75%;
+            margin: 15PX;
+            border-radius: 120px;
+
+        }
+
+        .vishalclour {
+            color: rgb(55, 80, 7);
+        }
+
+        #element {
+            color: rgb(52, 76, 4);
+        }
+
+        .secondsection {
+            margin: auto;
+            max-width: 80vw;
+            height: 20vh;
+
+        }
+
+        .secondsection h1 {
+            font-size: 1.5rem;
+        }
+
+        .fresher {
+            font-size: 15px;
+        }
+
+        .fresher h4 {
+            margin-top: 0px;
+            color: green;
+        }
+
+        footer {
+            height: 30vh;
+            background-color: rgb(25, 55, 45);
+        }
+
+        .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 100px;
+            display: flex;
+        }
+
+        .box .vertical {
+            background-color: white;
+            height: 55px;
+            width: 1px;
+            margin: 0 100px;
+
+
+        }
+
+        .instaimg {
+            top: -38px;
+            height: 38px;
+            position: relative;
+            right: 15px;
+        }
+
+        .instaid {
+            position: relative;
+            right: 42px;
+            BOTTOM: -9px;
+            color: red;
+            background-color: white;
+            border-radius: 12px;
+        }
+
+        .linkdinimg {
+            top: -38px;
+            height: 38px;
+            position: relative;
+            right: 15px;
+        }
+
+        .linkdinid {
+            position: relative;
+            right: 27px;
+            BOTTOM: -9px;
+            color: white;
+            background-color: #020218;
+            border-radius: 12px;
+        }
+
+        .facebookimg {
+            top: -38px;
+            height: 38px;
+            position: relative;
+            right: 15px;
+        }
+
+        .facebookid {
+            position: relative;
+            right: 34px;
+            BOTTOM: -9px;
+            color: blue;
+            background-color: white;
+            border-radius: 12px;
+        }
+
+        .twitterimg {
+            top: -38px;
+            height: 38px;
+            position: relative;
+            right: 15px;
+
+        }
+
+        .twitterid {
+            position: relative;
+            right: 25px;
+            BOTTOM: -9px;
+            color: rgb(190, 172, 139);
+            background-color: #020218;
+            border-radius: 12px;
+
+        }
+
+        .cv {
+            border-radius: 13px;
+            width: 120px;
+            height: 33px;
+            background-color: greenyellow;
+            color: black;
+        }
+
+        .cv:hover {
+            background-color: aquamarine;
+        }
+
+     
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">vishal portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="project.html">projects</a></li>
+                    <li><a href="contact.html">contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hey iam <span class="vishalclour">vishal</span>
+                <div>
+                    IAM A front-end developer
+                </div>
+
+                <span id="element"></span>
+
+            </div>
+            <div>
+                <a href="/#"><button class="cv">downlod cv </button></a>
+            </div>
+            <div class="rightsection"><img src="vishal.png.png" alt="vishal">
+                
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <h1>Work Experiance</h1>
+            <div class="fresher">
+                <h4>Now Iam A Fresher But I have Good Skills In Web Development</h4>
+            </div>
+
+
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <div class="box">
+            <div class="vertical">
+                <img class="instaimg" src="insta.png.png" alt="">
+                <a href="https://www.instagram.com/vishal.jangid7/"><button class="instaid">instagram</button></a>
+            </div>
+            <div class="vertical">
+                <img class="linkdinimg" src="linkdin.png" alt="">
+                <a href="https://www.linkedin.com/in/vishal-jangid-1857b925a/"><button
+                        class="linkdinid">linkdin</button></a>
+            </div>
+            <div class="vertical">
+                <img class="facebookimg" src="facebook.png" alt="">
+                <a href="https://www.facebook.com/profile.php?id=100087019103907"><button
+                        class="facebookid">facebook</button></a>
+            </div>
+            <div class="vertical">
+                <img class="twitterimg" src="t.png" alt="">
+                <a href="https://twitter.com/home"><button class="twitterid">twitter</button></a>
+            </div>
+        </div>
+
+
+    </footer>
+    <!--using by github-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Desginer', 'Dancer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
